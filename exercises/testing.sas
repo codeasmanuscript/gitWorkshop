@@ -1,5 +1,5 @@
 proc means;
-	var exercise energyintake;
+	var height weight edu glasses;
 run;
 
 proc freq;
