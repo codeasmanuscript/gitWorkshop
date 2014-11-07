@@ -1,12 +1,13 @@
 proc means;
-	var x y;
+	var a b c d e f;
 run;
 
 proc freq;
+	table sex bmi vitd;
 run;
 
 data datasetname;
 	set olddatasetname;
-	x = 0;
+	y = 0;
 run;
 
