@@ -1,5 +1,5 @@
 proc means;
-	var a b c d e f;
+	var exercise energyintake;
 run;
 
 proc freq;
