@@ -1,5 +1,5 @@
 proc means;
-	var a b c d e f;
+	var height weight edu glasses;
 run;
 
 proc freq;
